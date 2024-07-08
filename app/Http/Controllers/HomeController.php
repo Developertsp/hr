@@ -27,6 +27,7 @@ class HomeController extends Controller
     // main dashboard
     public function index()
     {
+       
         return view('dashboard.dashboard');
     }
     // employee dashboard

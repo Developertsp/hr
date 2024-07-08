@@ -9,9 +9,9 @@
                     <li class="menu-title">
                         <span>Main</span>
                     </li>
-                    <li class="submenu">
+                    <li class="submenu" style="display:none;">
                         <a href="#" class="noti-dot">
-                            <i class="la la-dashboard"></i>
+                             <i class="la la-dashboard"></i>
                             <span> Dashboard</span> <span class="menu-arrow"></span>
                         </a>
                         <ul style="display: none;">
@@ -52,6 +52,7 @@
                             <li><a href="timesheet.html">Timesheet</a></li>
                             <li><a href="shift-scheduling.html">Shift & Schedule</a></li>
                             <li><a href="overtime.html">Overtime</a></li>
+                            <li><a href="#">Add New Member</a></li>
                         </ul>
                     </li>
                     <li class="menu-title"> <span>HR</span> </li>
@@ -91,10 +92,10 @@
                             <li><a href="{{ route('form/daily/reports/page') }}"> Daily Report </a></li>
                         </ul>
                     </li>
-                    <li class="menu-title"> <span>Performance</span> </li>
-                    <li class="submenu"> <a href="#"><i class="la la-graduation-cap"></i>
+                    <li class="menu-title d-none" style="display:none;"> <span>Performance</span> </li>
+                    <li class="submenu d-none" style="display:none;"> <a href="#"><i class="la la-graduation-cap"></i>
                         <span> Performance </span> <span class="menu-arrow"></span></a>
-                        <ul style="display: none;">
+                        <ul style="display: none;" >
                             <li><a href="{{ route('form/performance/indicator/page') }}"> Performance Indicator </a></li>
                             <li><a href="{{ route('form/performance/page') }}"> Performance Review </a></li>
                             <li><a href="{{ route('form/performance/appraisal/page') }}"> Performance Appraisal </a></li>

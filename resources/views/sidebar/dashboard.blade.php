@@ -7,7 +7,7 @@
                     <li class="submenu"> <a href="#"><i class="la la-dashboard"></i> <span> Dashboard</span> <span class="menu-arrow"></span></a>
                         <ul style="display: none;">
                             <li><a class="active" href="{{ route('home') }}">Admin Dashboard</a></li>
-                            <li><a href="{{ route('em/dashboard') }}">Employee Dashboard</a></li>
+                            <li><a href="{{ route('dashboard') }}">Employee Dashboard</a></li>
                         </ul>
                     </li>
                     <li class="menu-title"> <span>Employees</span> </li>
@@ -25,6 +25,7 @@
                             <li><a href="timesheet.html">Timesheet</a></li>
                             <li><a href="shift-scheduling.html">Shift & Schedule</a></li>
                             <li><a href="overtime.html">Overtime</a></li>
+                            <li><a href="{{ route('register') }}">Add New Member</a></li>
                         </ul>
                     </li>
                     <li class="submenu"> <a href="#"><i class="la la-rocket"></i> <span> Projects</span> <span class="menu-arrow"></span></a>
@@ -45,7 +46,7 @@
                             <li><a href="taxes.html">Taxes</a></li>
                         </ul>
                     </li>
-                    <li class="submenu"> <a href="#"><i class="la la-files-o"></i> <span> Accounting </span> <span class="menu-arrow"></span></a>
+                    <li class="submenu" > <a href="#"><i class="la la-files-o"></i> <span> Accounting </span> <span class="menu-arrow"></span></a>
                         <ul style="display: none;">
                             <li><a href="categories.html">Categories</a></li>
                             <li><a href="budgets.html">Budgets</a></li>
